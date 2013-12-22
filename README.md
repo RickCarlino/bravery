@@ -4,8 +4,6 @@
 
 ... does anyone know where I can find one of those 'under construction' GIFs from the 90's?
 
-This will eventually be put into a gem. Right now, it's just a script with some specs. Enjoy.
-
 ## Example
 
 ```ruby
