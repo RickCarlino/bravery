@@ -1,5 +1,4 @@
 require 'pry'
-
 require_relative 'bravery'
 
 class Subject
