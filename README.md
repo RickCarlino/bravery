@@ -1,10 +1,8 @@
 # Bravery
 
-### A statemachine micro library for ruby.
+## A statemachine micro library for ruby.
 
 ... does anyone know where I can find one of those 'under construction' GIFs from the 90's?
-
-This will eventually be put into a gem. Right now, it's just a script with some specs. Enjoy.
 
 ## Example
 
@@ -47,6 +45,11 @@ herby.state
 # but it's there if you ever need it.
 herby.idling
 # => 'chug chug chug'
-
-
 ```
+
+## Testing
+
+This has been tested on ruby versions:
+
+* 1.9.3
+* 2.0.0 
