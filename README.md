@@ -53,3 +53,7 @@ This has been tested on ruby versions:
 
 * 1.9.3
 * 2.0.0 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/rickcarlino/bravery/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
