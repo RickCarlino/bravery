@@ -1,4 +1,4 @@
-Copyright (c) 2013 Michael Christenson II
+Copyright (c) 2013 Rick Carlino
 
 MIT License
 
