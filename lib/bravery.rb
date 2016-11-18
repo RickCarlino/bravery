@@ -1,26 +1,23 @@
-require "bravery/version"
-
 module Bravery
   module ClassMethods
-    @@states = []
 
     def define_state(state_name, &callback)
-      @@states << state_name
+      states << state_name
       define_method state_name, callback
     end
 
     def define_start_state(state_name, &callback)
       state_name = state_name.to_sym
-      @@start_state = state_name
+      @start_state = state_name
       define_state(state_name, &callback)
     end
 
     def states
-      @@states
+      @states ||= []
     end
 
     def start_state
-      @@start_state
+      @start_state
     end
   end
 
